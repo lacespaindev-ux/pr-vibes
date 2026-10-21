@@ -3,206 +3,297 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>PR VIBES Barber Studio · Madrid</title>
-<meta name="description" content="PR VIBES Barber Studio, barbería en Chamberí (Madrid): cortes de caballero, degradados, pelo largo y barba. 5,0 en Google con más de 260 opiniones. Reserva tu cita online.">
-<meta property="og:title" content="PR VIBES Barber Studio · Madrid">
-<meta property="og:description" content="PR VIBES Barber Studio, barbería en Chamberí (Madrid): cortes de caballero, degradados, pelo largo y barba. 5,0 en Google con más de 260 opiniones. Reserva tu cita online.">
-<meta property="og:image" content="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SsNB69WbqkD4F8k09JJ8UlhmEDvM9veKsoiAnS1ucGJOQAW1EgEkh6Q7g4qwZWN04npWRIIArVHQ8Y0weAqQvtEe1p682iuq-mkxU4_jzCi1iTSb4_JMIkoKkSMUqs8GjS10n0qqWC1nhd=w1200-h630-k-no">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2714%27%20fill%3D%27%23c9a26b%27/%3E%3Ctext%20x%3D%2732%27%20y%3D%2743%27%20font-family%3D%27Georgia%2Cserif%27%20font-size%3D%2730%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23111111%27%3EPR%3C/text%3E%3C/svg%3E">
+<title>PR VIBES · Barber Studio · Madrid</title>
+<meta name="description" content="PR VIBES Barber Studio en Chamberí, Madrid. Cortes, barba, pelo largo, camuflaje de canas y visagismo masculino. 5,0 en Google. Reserva tu cita online.">
+<meta property="og:title" content="PR VIBES · Barber Studio · Madrid">
+<meta property="og:description" content="Activate your vibe, define your style. Barbería y visagismo masculino en Chamberí.">
+<meta property="og:image" content="img/fade.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111'/%3E%3Ctext x='32' y='42' font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='26' text-anchor='middle' fill='%23fff'%3EPR%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,100,400;0,100,600;0,100,700;1,125,800;1,125,900&display=swap">
 <style>
-:root{--bg:#f4f3f1;--bg2:#e6e4e0;--ink:#111111;--soft:#57534e;--acc:#c9a26b;--acc2:#a9844f;--on:#111111;--line:rgba(17,17,17,.14);--fh:'Space Grotesk',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--r:4px;color-scheme:light}
+/* Estética del estudio: hormigón gris, negro y blanco, tipografía gruesa en cursiva como su logo */
+:root{
+  --ink:#111111; --ink-2:#1b1b1b; --concrete:#d8d6d2; --concrete-2:#c9c6c1; --paper:#f1f0ee;
+  --grey:#4a4a4a; --soft:#6f6c68; --line:rgba(17,17,17,.14); --white:#fff;
+  --f:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
 *{box-sizing:border-box}[hidden]{display:none!important}
-html{scroll-behavior:smooth;scroll-padding-top:80px}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;scroll-padding-top:76px}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}a{color:inherit}
-:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
-.wrap{max-width:1120px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
-.eyebrow{font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;color:var(--acc)}
-h1,h2,h3{font-family:var(--fh);margin:0;text-wrap:balance}
-h2{font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.06;margin-top:8px;font-weight:700}
-h3{font-size:1.3rem;line-height:1.2}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:1rem;text-decoration:none;padding:14px 24px;border-radius:4px;border:2px solid var(--acc);color:var(--acc);background:transparent;transition:background .2s,color .2s}
-.btn:hover{background:var(--acc);color:var(--on)}.btn.solid{background:var(--acc);color:var(--on)}.btn.solid:hover{background:var(--acc2);border-color:var(--acc2)}
-.btn svg{width:20px;height:20px;flex:none}.btn.sm{padding:9px 16px;font-size:.92rem}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+.disp{font-style:italic;font-weight:900;font-stretch:125%;text-transform:uppercase;letter-spacing:-.01em;line-height:.92;margin:0}
+.kick{font-weight:700;text-transform:uppercase;letter-spacing:.2em;font-size:.74rem;color:var(--soft)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:.98rem;text-decoration:none;padding:15px 26px;border:2px solid var(--ink);color:var(--ink);background:transparent;text-transform:uppercase;letter-spacing:.06em;transition:background .2s,color .2s}
+.btn:hover{background:var(--ink);color:var(--white)}
+.btn.solid{background:var(--ink);color:var(--white)}.btn.solid:hover{background:var(--grey);border-color:var(--grey)}
+.btn.inv{border-color:var(--white);color:var(--white)}.btn.inv:hover{background:var(--white);color:var(--ink)}
+.btn.inv.solid{background:var(--white);color:var(--ink)}.btn.inv.solid:hover{background:var(--concrete)}
+.btn svg{width:18px;height:18px;flex:none}
+
 /* cabecera */
-header{position:sticky;top:0;z-index:30;background:rgba(244,243,241,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:10px;position:relative}
-.brand{font-family:var(--fh);font-size:1.5rem;text-decoration:none;white-space:nowrap;line-height:1;font-weight:700;letter-spacing:.08em}
-header nav{display:flex;align-items:center;gap:22px}
-header nav a.l{text-decoration:none;font-weight:600;font-size:.93rem;color:var(--soft)}header nav a.l:hover{color:var(--acc)}
-@media (max-width:860px){header nav a.l{display:none}.brand{font-size:1.25rem}}
-@media (max-width:420px){header .btn.sm .t{display:none}header .btn.sm{padding:9px 12px}}
-/* hero */
-.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center;padding-block:56px 84px}
-.hero h1{font-size:clamp(3rem,8vw,5.6rem);line-height:.98;margin:14px 0 14px;font-weight:700;letter-spacing:.04em;font-size:clamp(4.4rem,13vw,9rem)}
-.hero .tag{font-size:clamp(1.12rem,2.2vw,1.35rem);margin:0 0 14px;font-weight:600}
-.hero .lede{color:var(--soft);max-width:44ch;margin:0 0 28px}
-.ctas{display:flex;flex-wrap:wrap;gap:12px}
-.rating{display:inline-flex;align-items:center;gap:10px;margin-top:26px;font-weight:600;color:var(--soft);font-size:.95rem}.rating b{color:var(--acc);letter-spacing:2px}
-.hero .pic{position:relative}
-.hero .pic img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r)}
-.hero .pic .badge{position:absolute;left:-18px;bottom:28px;background:var(--acc);color:var(--on);padding:14px 18px;border-radius:var(--r);font-weight:700;max-width:220px;line-height:1.25;box-shadow:0 18px 30px -18px rgba(0,0,0,.5)}
-.hero.full{position:relative;color:#fff}
-.hero.full .bgimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero.full::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.35) 70%,rgba(0,0,0,.15))}
-.hero.full .wrap{position:relative;z-index:1;grid-template-columns:1fr;min-height:min(86vh,760px);align-content:center}
-.hero.full .lede,.hero.full .rating{color:rgba(255,255,255,.86)}.hero.full .eyebrow{color:#fff;opacity:.9}.hero.full .pic{display:none}
-.hero.full .btn:not(.solid){color:#fff;border-color:rgba(255,255,255,.8)}.hero.full .btn:not(.solid):hover{background:#fff;color:#111}
-@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:34px;padding-block:34px 60px}.hero .pic .badge{left:12px;bottom:12px}.hero .pic img{aspect-ratio:4/3}}
-/* especial */
-.esp{background:var(--bg2)}.esp .wrap{padding-block:84px}
-.head{max-width:640px;margin-bottom:40px}.sub{color:var(--soft);margin:12px 0 0}
-.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.feat{background:var(--bg);border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
-.feat img{width:100%;aspect-ratio:4/3;object-fit:cover}.feat div{padding:20px 22px 24px}.feat p{margin:8px 0 0;color:var(--soft);font-size:.98rem}
-@media (max-width:860px){.feats{grid-template-columns:1fr}}
-/* carta */
-.carta .wrap{padding-block:84px}
-.mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px 44px}
-.msec h3{font-size:1.15rem;padding-bottom:10px;border-bottom:2px solid var(--acc);margin-bottom:6px}
-.msec ul{list-style:none;margin:0;padding:0}.msec li{padding:11px 0;border-bottom:1px dashed var(--line)}
-.msec .n{font-weight:700;display:block}.msec .d{display:block;color:var(--soft);font-size:.93rem;margin-top:2px}
-.note{margin:30px 0 0;color:var(--soft);font-size:.95rem}
-/* galería */
-.gal{background:var(--bg2)}.gal .wrap{padding-block:84px}
-.ggrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.ggrid figure{margin:0;position:relative;overflow:hidden;border-radius:var(--r)}
-.ggrid img{width:100%;aspect-ratio:1;object-fit:cover;transition:transform .5s}.ggrid figure:hover img{transform:scale(1.04)}
-.ggrid figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.65));color:#fff;font-size:.86rem;font-weight:600}
-.ggrid figure:first-child{grid-column:span 2;grid-row:span 2}
-@media (max-width:860px){.ggrid{grid-template-columns:repeat(2,1fr)}}
-/* opiniones */
-.ops .wrap{padding-block:84px;display:grid;grid-template-columns:.8fr 1.2fr;gap:52px;align-items:start}
-.score{font-family:var(--fh);font-size:clamp(4.4rem,10vw,6.4rem);line-height:1;color:var(--acc)}.score small{font-family:var(--fb);font-size:1rem;color:var(--soft);font-weight:600;margin-left:6px}
-.ops ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
-.ops li{background:var(--bg2);border-radius:var(--r);padding:18px 22px 18px 54px;position:relative;font-weight:500}
-.ops li::before{content:"★";position:absolute;left:20px;top:16px;color:var(--acc);font-size:1.15rem}
-.ops .more{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
-@media (max-width:860px){.ops .wrap{grid-template-columns:1fr;gap:28px}}
-/* visita */
-.visita{background:#111111;color:#f4f3f1}.visita .wrap{padding-block:84px;display:grid;grid-template-columns:1fr 1fr;gap:52px}
-.visita .eyebrow{color:#d9b47e}
-.hours{list-style:none;padding:0;margin:20px 0 0}.hours li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.16)}
-.hours li.off span:last-child{opacity:.6}.hours li.today{font-weight:700;color:#d9b47e}
-.addr{font-size:1.15rem;margin:18px 0 26px;opacity:.9}
-.visita .btn{border-color:#f4f3f1;color:#f4f3f1}.visita .btn:hover{background:#f4f3f1;color:#111111}
-.visita .btn.solid{background:#d9b47e;border-color:#d9b47e;color:#111111}
-.visita .stack{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
-@media (max-width:860px){.visita .wrap{grid-template-columns:1fr;gap:40px}}
-footer{background:#111111;color:#f4f3f1;border-top:1px solid rgba(255,255,255,.12)}footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between;font-size:.9rem;opacity:.85}
-.wa-float{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:40;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 26px -10px rgba(0,0,0,.5)}.wa-float svg{width:30px;height:30px}
-/* menú móvil */
-.lm-btn{display:none;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1.5px solid currentColor;background:transparent;color:var(--ink);cursor:pointer;flex:none;padding:0}
-.lm-btn span{display:block;width:18px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:background .2s}
-.lm-btn span::before,.lm-btn span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:currentColor;border-radius:2px;transition:transform .2s}
+header{position:sticky;top:0;z-index:30;background:rgba(17,17,17,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--white)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:12px;position:relative}
+.logo{display:flex;align-items:baseline;gap:2px;text-decoration:none;font-style:italic;font-weight:900;font-stretch:125%;font-size:1.55rem;line-height:1;letter-spacing:-.01em}
+.logo sup{font-size:.42em;font-style:normal;font-weight:400;margin:0 3px 0 1px}
+header nav{display:flex;align-items:center;gap:24px}
+header nav a.l{text-decoration:none;font-weight:600;font-size:.86rem;text-transform:uppercase;letter-spacing:.1em;opacity:.8}header nav a.l:hover{opacity:1}
+header .btn{padding:10px 18px;font-size:.84rem}
+@media (max-width:900px){header nav a.l{display:none}}
+@media (max-width:400px){header .btn .t{display:none}header .btn{padding:10px 12px}}
+.lm-btn{display:none;align-items:center;justify-content:center;width:44px;height:44px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;flex:none;padding:0}
+.lm-btn span{display:block;width:18px;height:2px;background:currentColor;position:relative;transition:background .2s}
+.lm-btn span::before,.lm-btn span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:currentColor;transition:transform .2s}
 .lm-btn span::before{top:-6px}.lm-btn span::after{top:6px}
 .lm-btn[aria-expanded="true"] span{background:transparent}.lm-btn[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}.lm-btn[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
-.lm-panel{position:absolute;left:0;right:0;top:100%;background:var(--bg);color:var(--ink);padding:6px max(18px,env(safe-area-inset-right,0px)) 20px max(18px,env(safe-area-inset-left,0px));box-shadow:0 22px 30px -20px rgba(0,0,0,.45);border-bottom:1px solid var(--line);max-height:calc(100vh - 70px);overflow:auto}
-.lm-panel a{display:flex;justify-content:space-between;align-items:center;padding:14px 2px;text-decoration:none;font-weight:700;font-size:1.05rem;border-bottom:1px solid var(--line)}
-.lm-panel a::after{content:"\2192";opacity:.45}
-.lm-panel a.lm-cta{justify-content:center;margin-top:16px;border:0;border-radius:999px;padding:14px;background:var(--acc);color:var(--on)}.lm-panel a.lm-cta::after{content:none}
-@media (max-width:860px){.lm-btn{display:inline-flex}}@media (min-width:861px){.lm-panel{display:none!important}}
+.lm-panel{position:absolute;left:0;right:0;top:100%;background:var(--ink);color:var(--white);padding:4px max(18px,env(safe-area-inset-right,0px)) 22px max(18px,env(safe-area-inset-left,0px));box-shadow:0 24px 30px -20px rgba(0,0,0,.6);max-height:calc(100vh - 70px);overflow:auto}
+.lm-panel a{display:flex;justify-content:space-between;align-items:center;padding:15px 2px;text-decoration:none;font-weight:800;font-style:italic;font-stretch:125%;text-transform:uppercase;font-size:1.15rem;border-bottom:1px solid rgba(255,255,255,.14)}
+.lm-panel a::after{content:"\2192";font-style:normal;opacity:.5}
+.lm-panel a.cta{justify-content:center;margin-top:18px;border:0;background:var(--white);color:var(--ink);font-size:1rem;padding:15px}.lm-panel a.cta::after{content:none}
+@media (max-width:900px){.lm-btn{display:inline-flex}}@media (min-width:901px){.lm-panel{display:none!important}}
 
+/* hero */
+.hero{background:var(--ink);color:var(--white);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-block:64px 84px}
+.hero .kick{color:rgba(255,255,255,.6)}
+.hero h1{font-size:clamp(3.6rem,9.5vw,7.4rem);margin:18px 0 10px}
+.hero .slogan{font-style:italic;font-weight:800;font-stretch:125%;text-transform:uppercase;font-size:clamp(1rem,2vw,1.25rem);letter-spacing:.04em;margin:0 0 18px;color:var(--concrete)}
+.hero .lede{color:rgba(255,255,255,.72);max-width:44ch;margin:0 0 30px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.rating{display:flex;align-items:center;gap:12px;margin-top:30px;font-weight:600;font-size:.92rem;color:rgba(255,255,255,.75)}
+.rating b{font-style:italic;font-weight:900;font-stretch:125%;font-size:1.9rem;color:var(--white)}
+.collage{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:10px}
+.collage img{width:100%;height:100%;object-fit:cover;filter:grayscale(.15)}
+.collage .a{grid-row:span 2;aspect-ratio:3/5}
+.collage .b,.collage .c{aspect-ratio:4/5}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr;padding-block:40px 56px;gap:36px}.collage{max-width:520px}}
+
+/* marquee */
+.band{background:var(--concrete);border-block:2px solid var(--ink);overflow:hidden;white-space:nowrap}
+.band div{display:inline-block;padding:14px 0;animation:mv 28s linear infinite;font-style:italic;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:1.15rem;letter-spacing:.02em}
+.band span{margin:0 22px}
+@keyframes mv{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.band div{animation:none}}
+
+/* secciones */
+section .wrap{padding-block:88px}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:18px;margin-bottom:38px}
+.head h2{font-size:clamp(2.6rem,6vw,4.6rem)}
+.head p{max-width:42ch;color:var(--soft);margin:0}
+
+/* especialidades */
+.spec{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sp{background:var(--white);border:1px solid var(--line)}
+.sp img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.sp div{padding:20px 22px 24px}
+.sp h3{font-style:italic;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:1.45rem;line-height:1;margin:0 0 8px}
+.sp p{margin:0;color:var(--soft);font-size:.97rem}
+@media (max-width:900px){.spec{grid-template-columns:1fr}.sp img{aspect-ratio:4/3}}
+
+/* precios */
+.precios{background:var(--concrete)}
+.plist{display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+.pi{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:18px 0;border-bottom:1.5px solid rgba(17,17,17,.22)}
+.pi .n{font-weight:800;font-size:1.06rem}
+.pi .p{font-style:italic;font-weight:900;font-stretch:125%;font-size:1.5rem;line-height:1;align-self:center;grid-row:span 2}
+.pi .t{color:var(--grey);font-size:.88rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.pi.star .n::after{content:"Más pedido";margin-left:10px;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;background:var(--ink);color:var(--white);padding:3px 7px;vertical-align:3px;font-weight:700}
+.pnote{margin:30px 0 0;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.pnote span{color:var(--grey);font-size:.94rem}
+@media (max-width:900px){.plist{grid-template-columns:1fr}}
+
+/* equipo */
+.team{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;max-width:900px}
+.member{position:relative;background:#232323;overflow:hidden}
+.member img{width:100%;aspect-ratio:1;object-fit:cover}
+.member div{position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:var(--white)}
+.member h3{font-style:italic;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:1.7rem;line-height:1;margin:0}
+.member p{margin:6px 0 0;font-size:.9rem;opacity:.8}
+@media (max-width:640px){.team{grid-template-columns:1fr}}
+
+/* galería */
+.gal{background:var(--ink);color:var(--white)}
+.gal .head p{color:rgba(255,255,255,.65)}
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ggrid img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.ggrid a{display:block;overflow:hidden}.ggrid a img{transition:transform .5s}.ggrid a:hover img{transform:scale(1.04)}
+@media (max-width:900px){.ggrid{grid-template-columns:repeat(2,1fr)}}
+
+/* opiniones */
+.ops .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.score{font-style:italic;font-weight:900;font-stretch:125%;font-size:clamp(5rem,12vw,8rem);line-height:.9;margin:14px 0 6px}
+.score small{font-style:normal;font-weight:600;font-size:1rem;color:var(--soft);font-stretch:100%;margin-left:6px}
+.ops ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.ops li{background:var(--white);border-left:4px solid var(--ink);padding:18px 22px;font-weight:500}
+.ops .more{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+@media (max-width:900px){.ops .wrap{grid-template-columns:1fr;gap:28px}}
+
+/* visita */
+.visita{background:var(--ink);color:var(--white)}
+.visita .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.visita h2{font-size:clamp(2.4rem,5vw,3.6rem)}
+.visita .kick{color:rgba(255,255,255,.55)}
+.hours{list-style:none;padding:0;margin:22px 0 0}
+.hours li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+.hours li.off span:last-child{opacity:.5}
+.hours li.today{font-weight:800}.hours li.today span:first-child::after{content:" · hoy";font-weight:500;opacity:.6}
+.addr{font-size:1.15rem;margin:20px 0 26px;color:rgba(255,255,255,.85)}
+.stack{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+@media (max-width:900px){.visita .wrap{grid-template-columns:1fr;gap:44px}}
+footer{background:#0a0a0a;color:rgba(255,255,255,.7)}
+footer .wrap{padding-block:24px;display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between;font-size:.88rem}
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <a class="brand" href="#inicio">PR <span style="color:var(--acc)">VIBES</span></a>
-    <nav><a class="l" href="#especial">El estudio</a><a class="l" href="#carta">Servicios</a><a class="l" href="#galeria">Galería</a><a class="l" href="#opiniones">Opiniones</a><a class="l" href="#visita">Horario</a><a class="btn sm solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm-2 8h14v10H5V10Zm2 2v2h2v-2H7Zm4 0v2h2v-2h-2Zm4 0v2h2v-2h-2Z"/></svg><span class="t">Reservar</span></a><button type="button" class="lm-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="lm-panel"><span></span></button></nav>
+    <a class="logo" href="#inicio" aria-label="PR VIBES, inicio">PR<sup>®</sup>VIBES</a>
+    <nav>
+      <a class="l" href="#especialidades">Especialidades</a><a class="l" href="#precios">Precios</a><a class="l" href="#equipo">Equipo</a><a class="l" href="#galeria">Galería</a><a class="l" href="#visita">Horario</a>
+      <a class="btn inv solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm-2 8h14v10H5V10Z"/></svg><span class="t">Reservar</span></a>
+      <button type="button" class="lm-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="lm-panel"><span></span></button>
+    </nav>
   </div>
-  <div class="lm-panel" id="lm-panel" hidden role="navigation" aria-label="Menú de la web"></div>
+  <div class="lm-panel" id="lm-panel" hidden role="navigation" aria-label="Menú de la web">
+    <a href="#inicio">Inicio</a><a href="#especialidades">Especialidades</a><a href="#precios">Precios</a><a href="#equipo">Equipo</a><a href="#galeria">Galería</a><a href="#opiniones">Opiniones</a><a href="#visita">Horario y cómo llegar</a>
+    <a class="cta" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener">Reservar cita</a>
+  </div>
 </header>
+
 <main>
-  <section class="hero full" id="inicio">
-    <img class="bgimg" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SsNB69WbqkD4F8k09JJ8UlhmEDvM9veKsoiAnS1ucGJOQAW1EgEkh6Q7g4qwZWN04npWRIIArVHQ8Y0weAqQvtEe1p682iuq-mkxU4_jzCi1iTSb4_JMIkoKkSMUqs8GjS10n0qqWC1nhd=w1800-h1100-k-no" alt="">
+  <section class="hero" id="inicio">
     <div class="wrap">
       <div>
-        <span class="eyebrow">Barber Studio · Chamberí, Madrid</span>
-        <h1>PR <span style="color:var(--acc)">VIBES</span></h1>
-        <p class="tag">Cortes con detalle. Vibes de estudio.</p>
-        <p class="lede">Un estudio de barbería en pleno Chamberí: degradados limpios, pelo largo bien trabajado y barba al detalle, en un local con un ambiente que engancha.</p>
-        <div class="ctas"><a class="btn solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm-2 8h14v10H5V10Zm2 2v2h2v-2H7Zm4 0v2h2v-2h-2Zm4 0v2h2v-2h-2Z"/></svg>Reservar cita</a><a class="btn" href="#especial">Ver el estudio</a></div>
-        <div class="rating"><b>★★★★★</b> 5,0 de media en Google · 261 opiniones</div>
+        <span class="kick">Barber Studio · Chamberí, Madrid</span>
+        <h1 class="disp">PR<br>Vibes</h1>
+        <p class="slogan">Activate your vibe, define your style</p>
+        <p class="lede">Cortes, barba y visagismo masculino trabajados al detalle. Te asesoramos para que el corte vaya con tu cara, tu pelo y tu estilo.</p>
+        <div class="ctas">
+          <a class="btn inv solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener">Reservar cita</a>
+          <a class="btn inv" href="#precios">Ver precios</a>
+        </div>
+        <div class="rating"><b>5,0</b> ★★★★★ · 261 opiniones en Google</div>
       </div>
-      <div class="pic"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SsNB69WbqkD4F8k09JJ8UlhmEDvM9veKsoiAnS1ucGJOQAW1EgEkh6Q7g4qwZWN04npWRIIArVHQ8Y0weAqQvtEe1p682iuq-mkxU4_jzCi1iTSb4_JMIkoKkSMUqs8GjS10n0qqWC1nhd=w1000-h1250-k-no" alt="Barbero cortando el pelo en PR VIBES"><div class="badge">5,0 en Google · 261 opiniones</div></div>
+      <div class="collage">
+        <img class="a" src="img/fade.jpg" alt="Cliente con degradado y rizos recién peinado">
+        <img class="b" src="img/corte.jpg" alt="Barbero de PR VIBES dando forma a un corte">
+        <img class="c" src="img/barba.jpg" alt="Ritual de barba con vapor">
+      </div>
     </div>
   </section>
 
-  <section class="esp" id="especial">
+  <div class="band" aria-hidden="true"><div><span>Corte</span>✦<span>Barba</span>✦<span>Pelo largo</span>✦<span>Visagismo</span>✦<span>Camuflaje de canas</span>✦<span>Chamberí</span>✦<span>Corte</span>✦<span>Barba</span>✦<span>Pelo largo</span>✦<span>Visagismo</span>✦<span>Camuflaje de canas</span>✦<span>Chamberí</span>✦</div></div>
+
+  <section id="especialidades">
     <div class="wrap">
-      <div class="head"><span class="eyebrow">Lo que hacemos</span><h2>Cada corte, a tu medida</h2><p class="sub">Escuchamos lo que buscas y lo trabajamos con calma y precisión.</p></div>
-      <div class="feats"><article class="feat"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SsNB69WbqkD4F8k09JJ8UlhmEDvM9veKsoiAnS1ucGJOQAW1EgEkh6Q7g4qwZWN04npWRIIArVHQ8Y0weAqQvtEe1p682iuq-mkxU4_jzCi1iTSb4_JMIkoKkSMUqs8GjS10n0qqWC1nhd=w900-h700-k-no" alt="Corte de caballero" loading="lazy"><div><h3>Cortes y degradados</h3><p>Fades limpios, cortes clásicos y actuales, adaptados a tu cara y a tu pelo.</p></div></article>
-<article class="feat"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R6OCytccEkkYpF2sLqARahp2CmuylbkK0TaRpZLXhzOeBXyP_rBKW0JYgOnX72VNpwlM6iyVcMcjv09sNOAjjo_Ij-Q-KeZI7e8tnUHQiH_VHfpF6Ala1oxudruzNxcdtR5jRDjIcFGsSs=w900-h700-k-no" alt="Puesto de barbero" loading="lazy"><div><h3>Pelo largo</h3><p>También para melenas: cortes que respetan el largo y le dan forma.</p></div></article>
-<article class="feat"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sbr_MTgtuH1kjkSn371UGkHIQjEz9MoBF2iCHcgeV9CALwYMjfnY8hLvR8MpDGlxFihOh7tw6ao8n0aPaKZT9GvRJRb36TT_QVNLZsp5G_VfZ-QTC3yYO3AsF955YFnff6KLbXrt7DffR6=w900-h700-k-no" alt="Barbero trabajando" loading="lazy"><div><h3>Barba</h3><p>Arreglo y perfilado de barba con acabado impecable.</p></div></article></div>
+      <div class="head"><div><span class="kick">Lo que hacemos</span><h2 class="disp">Especialidades</h2></div><p>Cada servicio, con calma y con criterio. Sales con un corte que te favorece de verdad.</p></div>
+      <div class="spec">
+        <article class="sp"><img src="img/clasico.jpg" alt="Corte de caballero con textura" loading="lazy"><div><h3>Corte</h3><p>Degradados limpios, cortes clásicos y con textura. También pelo largo, respetando el largo y dándole forma.</p></div></article>
+        <article class="sp"><img src="img/barba.jpg" alt="Arreglo de barba con vapor caliente" loading="lazy"><div><h3>Barba</h3><p>Arreglo y perfilado con ritual de vapor, rapado y barba, y camuflaje de canas para un acabado natural.</p></div></article>
+        <article class="sp"><img src="img/fade.jpg" alt="Resultado de asesoramiento de imagen" loading="lazy"><div><h3>Visagismo</h3><p>Asesoramiento de imagen masculino: estudiamos tu rostro y diseñamos el corte y la barba que mejor te van.</p></div></article>
+      </div>
     </div>
   </section>
 
-  <section class="carta" id="carta">
+  <section class="precios" id="precios">
     <div class="wrap">
-      <div class="head"><span class="eyebrow">Servicios</span><h2>Elige y reserva</h2><p class="sub">Reserva online en segundos y elige hora con tu barbero.</p></div>
-      <div class="mgrid"><div class="msec"><h3>Corte</h3><ul><li><span class="n">Corte de caballero</span></li><li><span class="n">Degradado / fade</span></li><li><span class="n">Pelo largo</span></li></ul></div><div class="msec"><h3>Barba</h3><ul><li><span class="n">Arreglo de barba</span></li><li><span class="n">Corte + barba</span></li></ul></div></div>
-      <p class="note">Precios y huecos disponibles en la reserva online.</p>
+      <div class="head"><div><span class="kick">Tarifas</span><h2 class="disp">Precios</h2></div><p>Reserva online en segundos y elige tu barbero. Cancelación gratis hasta 4 horas antes.</p></div>
+      <div class="plist">
+        <div class="pi star"><span class="n">Corte de cabello</span><span class="p">20€</span><span class="t">30 min</span></div>
+        <div class="pi star"><span class="n">Corte y barba</span><span class="p">30€</span><span class="t">1 h</span></div>
+        <div class="pi"><span class="n">Corte de cabello largo</span><span class="p">24€</span><span class="t">45 min</span></div>
+        <div class="pi"><span class="n">Arreglo de barba</span><span class="p">17€</span><span class="t">30 min</span></div>
+        <div class="pi"><span class="n">Rapado y barba</span><span class="p">23€</span><span class="t">30 min</span></div>
+        <div class="pi"><span class="n">Camuflaje de canas · barba</span><span class="p">15€</span><span class="t">15 min</span></div>
+        <div class="pi"><span class="n">Camuflaje de canas · cabello</span><span class="p">18€</span><span class="t">15 min</span></div>
+        <div class="pi"><span class="n">Visagismo y asesoramiento de imagen</span><span class="p">45€</span><span class="t">1 h</span></div>
+        <div class="pi"><span class="n">Visagismo, asesoramiento y diseño de barba</span><span class="p">55€</span><span class="t">1 h 30 min</span></div>
+      </div>
+      <div class="pnote"><span>Elige servicio, barbero y hora en la reserva online.</span><a class="btn solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener">Reservar cita</a></div>
     </div>
   </section>
+
+  <section id="equipo">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">El equipo</span><h2 class="disp">Tus barberos</h2></div><p>Elige con quién quieres cortarte al reservar.</p></div>
+      <div class="team">
+        <article class="member"><img src="https://res.cloudinary.com/df0dan3od/image/upload/f_auto,q_auto,w_800,c_limit/v1772568360/employees/e7fcad31-d4e4-483c-9211-0db0490de1f3/urwyhd1ykhu8ovl5xtlx.jpg" alt="David Palomo, barbero de PR VIBES" loading="lazy"><div><h3>David Palomo</h3><p>Barbero · PR VIBES</p></div></article>
+        <article class="member"><img src="https://res.cloudinary.com/df0dan3od/image/upload/f_auto,q_auto,w_800,c_limit/v1772568411/employees/19b88110-469d-44c2-815d-ea9f2e6faa7b/hmneyemzkpygpjagkaxz.jpg" alt="Natxo Correa, barbero de PR VIBES" loading="lazy"><div><h3>Natxo Correa</h3><p>Barbero · PR VIBES</p></div></article>
+      </div>
+    </div>
+  </section>
+
   <section class="gal" id="galeria">
     <div class="wrap">
-      <div class="head"><span class="eyebrow">Galería</span><h2>Dentro del estudio</h2></div>
-      <div class="ggrid"><figure><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLewCNHip-GO7stbNMA2dGJHvbQQNc_jYXaM8Dh7ggy5BDK8CsqGjOF8pBLwqlk9LdLOaDhtKq9Lz0Ua34iqcOoUgHce-VZDhLWLE1B_AI4eY9RWFJXOxelXefF_BI3FErA2DjAYxoXCI66s=w900-h900-k-no" alt="El estudio" loading="lazy"><figcaption>El estudio</figcaption></figure>
-<figure><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SsNB69WbqkD4F8k09JJ8UlhmEDvM9veKsoiAnS1ucGJOQAW1EgEkh6Q7g4qwZWN04npWRIIArVHQ8Y0weAqQvtEe1p682iuq-mkxU4_jzCi1iTSb4_JMIkoKkSMUqs8GjS10n0qqWC1nhd=w900-h900-k-no" alt="En el sillón" loading="lazy"><figcaption>En el sillón</figcaption></figure>
-<figure><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sbr_MTgtuH1kjkSn371UGkHIQjEz9MoBF2iCHcgeV9CALwYMjfnY8hLvR8MpDGlxFihOh7tw6ao8n0aPaKZT9GvRJRb36TT_QVNLZsp5G_VfZ-QTC3yYO3AsF955YFnff6KLbXrt7DffR6=w900-h900-k-no" alt="Trabajando" loading="lazy"><figcaption>Trabajando</figcaption></figure>
-<figure><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QiK3mn68Ac3YTDHlh8Z0lcmmiziohVCS_PRPOlXVrm8oZ_9nG_tTO8_m0buGv4-I7caXsfERm-pdnF3spofDkOnXMJXPWh-HQSLPLfvdHx9YEcff2kclqJ6iHvHYtDMiWOiTcYGStyHjE=w900-h900-k-no" alt="PR VIBES" loading="lazy"><figcaption>PR VIBES</figcaption></figure>
-<figure><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QEUwYPCQjuXyICK_MdFMl7uZ8JXmirPw_rLJlS3FuwSW01ciErgKy-4JRnmx7sqjhZI3Heu7UWTHu_a14WMm8ktfFnAt-Dl-xO4Sn69kqWB3NdHlyk_dtZSjLOGCz0gnpyOzzydGn8oVPM=w900-h900-k-no" alt="El equipo" loading="lazy"><figcaption>El equipo</figcaption></figure>
-<figure><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sn375knfhiR70S2JGEHmWnqLIU6QWod15rd-zkColASNTJ6EG02Fvvr_SaLgM3RfEjDTi6zaKOqmzV_i0KvcGBPCVkoytpLUntyoTHKjZTUUDZdWcDADEE2r09UJPY5KqT3uJc1MWsDSjY=w900-h900-k-no" alt="Donoso Cortés, 44" loading="lazy"><figcaption>Donoso Cortés, 44</figcaption></figure></div>
+      <div class="head"><div><span class="kick">@prvibesmadrid</span><h2 class="disp">El estudio</h2></div><p>Más trabajos y el día a día del estudio en nuestro Instagram.</p></div>
+      <div class="ggrid">
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/fade.jpg" alt="Degradado con rizos" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/bn.jpg" alt="Corte en blanco y negro" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/local.jpg" alt="Rincón del estudio" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/clasico.jpg" alt="Corte clásico con textura" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/barba.jpg" alt="Ritual de barba" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/productos.jpg" alt="Productos de peinado" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener"><img src="img/corte.jpg" alt="Barbero trabajando" loading="lazy"></a>
+        <a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener" style="display:grid;place-items:center;background:var(--concrete);color:var(--ink);text-decoration:none;aspect-ratio:4/5"><span class="disp" style="font-size:1.5rem;text-align:center;padding:16px">Síguenos<br>en Instagram →</span></a>
+      </div>
     </div>
   </section>
 
   <section class="ops" id="opiniones">
     <div class="wrap">
-      <div><span class="eyebrow">Opiniones en Google</span><h2>5,0 con más de 260 opiniones</h2><div class="score" style="margin-top:18px">5,0<small>/ 5 · 261 opiniones</small></div></div>
-      <div><ul><li>Para muchos clientes, de los mejores barberos de Madrid.</li>
-<li>Expertos también en pelo largo: entienden lo que pides.</li>
-<li>Trato cercano y profesional desde que entras.</li>
-<li>Estudio impecable, buen ambiente y productos de calidad.</li></ul>
-        <div class="more"><a class="btn solid" href="https://www.google.com/maps/search/?api=1&query=PR%20VIBES%20Barber%20Studio%2C%20Calle%20de%20Donoso%20Cort%C3%A9s%2C%2044%20%C2%B7%20Chamber%C3%AD%20%C2%B7%2028015%20Madrid&query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener">Ver todas las reseñas en Google</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=PR%20VIBES%20Barber%20Studio%2C%20Calle%20de%20Donoso%20Cort%C3%A9s%2C%2044%20%C2%B7%20Chamber%C3%AD%20%C2%B7%2028015%20Madrid&query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener">Déjanos tu reseña</a></div>
+      <div><span class="kick">Opiniones en Google</span><div class="score">5,0<small>/ 5 · 261 opiniones</small></div></div>
+      <div>
+        <ul>
+          <li>Muchos clientes lo tienen claro: de los mejores barberos de Madrid.</li>
+          <li>Expertos también en pelo largo, entienden lo que pides.</li>
+          <li>Trato cercano y profesional desde que entras por la puerta.</li>
+          <li>Estudio impecable, buen ambiente y productos de calidad.</li>
+        </ul>
+        <div class="more">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=PR%20VIBES%20Barber%20Studio%20Madrid&amp;query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener">Ver todas las reseñas</a>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=PR%20VIBES%20Barber%20Studio%20Madrid&amp;query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener">Déjanos tu reseña</a>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="visita" id="visita">
     <div class="wrap">
-      <div><span class="eyebrow">Horario</span><h2>Horario</h2><ul class="hours" id="hours"><li data-d="1"><span>Lunes</span><span>10:00 – 14:00 · 15:00 – 20:00</span></li>
-<li data-d="2"><span>Martes</span><span>10:00 – 20:00</span></li>
-<li data-d="3"><span>Miércoles</span><span>10:00 – 20:00</span></li>
-<li data-d="4"><span>Jueves</span><span>10:00 – 20:00</span></li>
-<li data-d="5"><span>Viernes</span><span>10:00 – 20:00</span></li>
-<li data-d="6"><span>Sábado</span><span>10:00 – 14:00</span></li>
-<li data-d="0" class="off"><span>Domingo</span><span>Cerrado</span></li></ul></div>
-      <div><span class="eyebrow">Dónde estamos</span><h2>En Chamberí</h2>
-        <p class="addr">Calle de Donoso Cortés, 44 · Chamberí · 28015 Madrid</p>
-        <div class="stack"><a class="btn solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm-2 8h14v10H5V10Zm2 2v2h2v-2H7Zm4 0v2h2v-2h-2Zm4 0v2h2v-2h-2Z"/></svg>Reservar cita · 919 48 39 82</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=PR%20VIBES%20Barber%20Studio%2C%20Calle%20de%20Donoso%20Cort%C3%A9s%2C%2044%20%C2%B7%20Chamber%C3%AD%20%C2%B7%2028015%20Madrid&query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg>Cómo llegar</a></div>
+      <div><span class="kick">Horario</span><h2 class="disp">Cuándo estamos</h2>
+        <ul class="hours" id="hours">
+          <li data-d="1"><span>Lunes</span><span>10:00 – 14:00 · 15:00 – 20:00</span></li>
+          <li data-d="2"><span>Martes</span><span>10:00 – 20:00</span></li>
+          <li data-d="3"><span>Miércoles</span><span>10:00 – 20:00</span></li>
+          <li data-d="4"><span>Jueves</span><span>10:00 – 20:00</span></li>
+          <li data-d="5"><span>Viernes</span><span>10:00 – 20:00</span></li>
+          <li data-d="6"><span>Sábado</span><span>10:00 – 14:00</span></li>
+          <li data-d="0" class="off"><span>Domingo</span><span>Cerrado</span></li>
+        </ul>
+      </div>
+      <div><span class="kick">Dónde estamos</span><h2 class="disp">En Chamberí</h2>
+        <p class="addr">Calle de Donoso Cortés, 37 · 28015 Madrid</p>
+        <div class="stack">
+          <a class="btn inv solid" href="https://cut.yeasyapp.com/k0qYaa" target="_blank" rel="noopener">Reservar cita</a>
+          <a class="btn inv" href="tel:+34919483982">Llamar · 919 48 39 82</a>
+          <a class="btn inv" href="https://www.google.com/maps/search/?api=1&amp;query=PR%20VIBES%20Barber%20Studio%20Madrid&amp;query_place_id=ChIJe7Nq2rIpQg0R9Cqa-tlPl_A" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
       </div>
     </div>
   </section>
 </main>
-<footer><div class="wrap"><span>PR VIBES Barber Studio · Calle de Donoso Cortés, 44 · Chamberí · 28015 Madrid</span><a href="https://lacedev.com" target="_blank" rel="noopener">Web hecha por Lace</a></div></footer>
-
+<footer><div class="wrap"><span>PR VIBES Barber Studio · Donoso Cortés, 37 · Madrid</span><a href="https://www.instagram.com/prvibesmadrid/" target="_blank" rel="noopener">@prvibesmadrid</a><a href="https://lacedev.com" target="_blank" rel="noopener">Web hecha por Lace</a></div></footer>
 <script>
 try{var el=document.querySelector('#hours li[data-d="'+new Date().getDay()+'"]');if(el)el.classList.add('today');}catch(e){}
-(function(){
-var items=[["Inicio", "#inicio"], ["El estudio", "#especial"], ["Servicios", "#carta"], ["Galería", "#galeria"], ["Opiniones", "#opiniones"], ["Horario", "#visita"]];
-var b=document.querySelector('.lm-btn'),p=document.getElementById('lm-panel'),h=document.querySelector('header');
-items.forEach(function(it){if(!document.querySelector(it[1]))return;var a=document.createElement('a');a.href=it[1];a.textContent=it[0];p.appendChild(a);});
-var c=document.createElement('a');c.href="https://cut.yeasyapp.com/k0qYaa";c.target='_blank';c.rel='noopener';c.className='lm-cta';c.textContent="Reservar cita";p.appendChild(c);
+(function(){var b=document.querySelector('.lm-btn'),p=document.getElementById('lm-panel'),h=document.querySelector('header');
 function set(o){p.hidden=!o;b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú');}
 b.addEventListener('click',function(e){e.stopPropagation();set(p.hidden);});
 p.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
 document.addEventListener('click',function(e){if(!p.hidden&&!h.contains(e.target))set(false);});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!p.hidden){set(false);b.focus();}});
-window.addEventListener('resize',function(){if(window.innerWidth>860)set(false);});
-})();
+window.addEventListener('resize',function(){if(window.innerWidth>900)set(false);});})();
 </script>
 </body>
 </html>
